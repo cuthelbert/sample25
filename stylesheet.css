@@ -1,0 +1,140 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+input, select, option {
+font-family: 'Signika', sans-serif;  }
+
+h1,h2,h3,h4,h5{
+font-weight:normal; }
+
+body { 
+font-family: 'Signika', sans-serif; 
+font-size:1em; 
+color:#575757; 
+line-height:21px; 
+margin:0px; 
+padding:0px; }
+#wrapper
+{
+	width: 100%;
+	
+}
+#header
+{
+
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo
+{
+	padding: 10px;
+
+}
+#header .search
+{
+	float: right;
+	margin-right: 0px;
+	position: relative;
+	margin-top: 35px;
+	
+
+}
+.search input[type="text"]
+{
+	width: 180px;
+	border-radius: 15px;
+	padding: 5px 30px 5px 10px;
+	border: 1px solid #7E7E7E;
+}
+ .searchicon
+{
+	background: url(images/icons.png)0 -53px;
+	width: 43px;
+	height: 30px;
+	margin-right: 0px;
+	right: 0px;
+	position: absolute;
+	border: 0px solid #D7171A;
+}
+.callicon span
+{
+	font-weight: bold;
+}
+.callicon
+{
+	float: right;
+	margin-top: 30px;
+	margin-right: 140px;
+	background: url(images/icons.png)no-repeat 0 -7px;
+	padding-left: 42px;
+	
+}
+#navsection
+{
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+}
+.mainmenu
+{
+	width: 1000px;
+	
+	line-height: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+#navsection .mainmenu li
+{
+
+	float: left;
+	margin-right: 50px;
+}
+.mainmenu li a
+{
+	color: #FAFAFA;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.submenu li a
+{
+	color: #000000;
+}
+#navsection .submenu
+{
+
+	background-color: #42AB5E;
+	width: 250px;
+	background: url(images/icons.png)no-repeat 0 -413px;
+	position: absolute;
+	z-index:999;
+	top: 30px;
+	padding-top: 10px;
+	display: none;
+}
+.submenu ul
+{
+	border-top: 5px solid #2564FC;
+	background-color: #06931D;
+	overflow: hidden
+}
+.submenu ul li
+{
+	border-bottom: 1px solid #006D7D;
+	background-color: #EBEBEB;
+	width: 100%;
+	padding: 0px 10px;
+}
+.submenu li a:hover
+{
+	color: #CE070B;
+}
+#navsection .mainmenu li:hover .submenu
+{
+	display: block;
+}
